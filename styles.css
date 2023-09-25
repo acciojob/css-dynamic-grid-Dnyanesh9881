@@ -4,10 +4,14 @@
 	display:grid;
 
 	grid-template-columns:repeat(5,150px);
-	grid-template-rows:200px 200px;
+	grid-template-rows:repeat(9,200px);
+	
 }
 .grid-item{
+	margin:5px;
 	display:flex;
+	justify-content:center;
+	align-items:center;
 	flex-wrap:wrap;
 	background-color:lightgray
 }
