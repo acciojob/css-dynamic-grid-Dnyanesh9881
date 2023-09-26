@@ -1,12 +1,8 @@
 /*  your css code here. If applicable */
 .grid-container{
-	width:100vw;
 	display:grid;
 	grid-gap:10px 10px;
-   
-	grid-template-columns:repeat(5,200px);
-	grid-template-rows:repeat(9,150px);
-	
+	grid-template-columns:repeat(3,150px);
 }
 .grid-item{
 	border-radius:5px;
@@ -14,6 +10,8 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	flex-wrap:wrap;
-	background-color:lightgray
+	background-color:lightgray;
+	height:150px;
+	width:100%
 }
+@media screen and (max)
